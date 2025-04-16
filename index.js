@@ -31,7 +31,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // Replace with your first origin
-      "https://udayrana428.github.io/Personal_Portfolio/", // Replace with your second origin
+      "https://udayrana428.github.io/Personal_Portfolio/",
+      "https://uday-rana-portfolio-i7jj5vsyz-udays-projects-9a8a65ab.vercel.app/", // Replace with your second origin
       // Add more origins as needed
     ],
     methods: "GET, POST, OPTIONS, PUT, PATCH, DELETE",
