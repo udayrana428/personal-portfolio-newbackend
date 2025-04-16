@@ -4,15 +4,20 @@
   "description": "backend for my personal portfolio website",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.0.3"
+    "logger": "^0.0.1",
+    "mailgen": "^2.0.29",
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9"
   }
 }
