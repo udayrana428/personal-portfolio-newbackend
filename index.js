@@ -31,7 +31,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // Replace with your first origin
-      "https://udayrana428.github.io/Portfolio",
+      "https://udayrana428.github.io",
       "https://uday-rana-portfolio.vercel.app", // Replace with your second origin
       // Add more origins as needed
     ],
